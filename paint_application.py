@@ -58,6 +58,7 @@ switch = "ON:1"
 cv.createTrackbar(switch, 'image',0,1,nothing)
 font = cv.FONT_HERSHEY_SIMPLEX
 cv.putText(img,'Choose colors and Radius for circle by dragging "On Trackbar" to 1 ',(1,20), font, 0.45,(255,255,255),2,cv.LINE_AA)
+cv.putText(img,'Click "m" to choose circle/rectangle and "c" for clear screen ',(1,297), font, 0.5,(255,255,255),2,cv.LINE_AA)
 
 
 while(1):
